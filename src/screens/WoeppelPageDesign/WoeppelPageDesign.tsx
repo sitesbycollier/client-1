@@ -261,8 +261,16 @@ export const WoeppelPageDesign = (): JSX.Element => {
           </div>
 
           <p className="[font-family:'Merriweather',Helvetica] font-light text-[#9a8d7f] text-xs sm:text-sm text-center">
-            &copy; {new Date().getFullYear()} Amie Woeppel Interiors. All rights
-            reserved.
+            &copy; {new Date().getFullYear()} Amie Woeppel Interiors. All rights reserved. <br></br>
+            {" "}Design by{" "}
+            <a
+              href="https://sitesbycollier.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:opacity-80"
+            >
+              Sites By Collier
+            </a>
           </p>
         </div>
       </footer>
