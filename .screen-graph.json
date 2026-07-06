@@ -1,4 +1,100 @@
 {
-  "nodes": [],
-  "edges": []
+  "nodes": [
+    {
+      "id": "src/pages/HomePage.tsx",
+      "label": "HomePage",
+      "routes": [
+        "/"
+      ],
+      "dataModelId": "485:133",
+      "isRoot": true
+    },
+    {
+      "id": "src/pages/AboutPage.tsx",
+      "label": "AboutPage",
+      "routes": [
+        "/about"
+      ]
+    },
+    {
+      "id": "src/pages/ServicesPage.tsx",
+      "label": "ServicesPage",
+      "routes": [
+        "/services"
+      ]
+    },
+    {
+      "id": "src/pages/ProjectsPage.tsx",
+      "label": "ProjectsPage",
+      "routes": [
+        "/projects"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "src/sections/MainNavigationSection.tsx:66:8-to-src/pages/HomePage.tsx",
+      "source": "src/pages/HomePage.tsx",
+      "target": "src/pages/HomePage.tsx",
+      "data": {
+        "viaRoute": "/",
+        "trigger": {
+          "element": "<Link\n          to=\"/\"\n          aria-label=\"Amie Woeppel Interiors — home\"\n          onClick={handleNavClick}\n          className=\"shrink-0 focus-visible:rounded focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#7faac4]\"\n        >\n          <img\n            className=\"h-[60px] sm:h-[70px] w-auto object-contain\"\n            alt=\"Amie Woeppel Interiors logo\"\n            src=\"https://c.animaapp.com/jPZwUw1S/img/headeramie-logo-jpg-1@2x.png\"\n          />\n        </Link>",
+          "line": 66,
+          "endLine": 77,
+          "column": 8,
+          "endColumn": 15,
+          "sourceFile": "src/sections/MainNavigationSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/sections/MainNavigationSection.tsx:66:8-to-src/pages/HomePage.tsx",
+      "source": "src/pages/HomePage.tsx",
+      "target": "src/pages/HomePage.tsx",
+      "data": {
+        "viaRoute": "/",
+        "trigger": {
+          "element": "<Link\n          to=\"/\"\n          aria-label=\"Amie Woeppel Interiors — home\"\n          onClick={handleNavClick}\n          className=\"shrink-0 focus-visible:rounded focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#7faac4]\"\n        >\n          <img\n            className=\"h-[60px] sm:h-[70px] w-auto object-contain\"\n            alt=\"Amie Woeppel Interiors logo\"\n            src=\"https://c.animaapp.com/jPZwUw1S/img/headeramie-logo-jpg-1@2x.png\"\n          />\n        </Link>",
+          "line": 66,
+          "endLine": 77,
+          "column": 8,
+          "endColumn": 15,
+          "sourceFile": "src/sections/MainNavigationSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/sections/MainNavigationSection.tsx:66:8-to-src/pages/HomePage.tsx",
+      "source": "src/pages/HomePage.tsx",
+      "target": "src/pages/HomePage.tsx",
+      "data": {
+        "viaRoute": "/",
+        "trigger": {
+          "element": "<Link\n          to=\"/\"\n          aria-label=\"Amie Woeppel Interiors — home\"\n          onClick={handleNavClick}\n          className=\"shrink-0 focus-visible:rounded focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#7faac4]\"\n        >\n          <img\n            className=\"h-[60px] sm:h-[70px] w-auto object-contain\"\n            alt=\"Amie Woeppel Interiors logo\"\n            src=\"https://c.animaapp.com/jPZwUw1S/img/headeramie-logo-jpg-1@2x.png\"\n          />\n        </Link>",
+          "line": 66,
+          "endLine": 77,
+          "column": 8,
+          "endColumn": 15,
+          "sourceFile": "src/sections/MainNavigationSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/sections/MainNavigationSection.tsx:66:8-to-src/pages/HomePage.tsx",
+      "source": "src/pages/HomePage.tsx",
+      "target": "src/pages/HomePage.tsx",
+      "data": {
+        "viaRoute": "/",
+        "trigger": {
+          "element": "<Link\n          to=\"/\"\n          aria-label=\"Amie Woeppel Interiors — home\"\n          onClick={handleNavClick}\n          className=\"shrink-0 focus-visible:rounded focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#7faac4]\"\n        >\n          <img\n            className=\"h-[60px] sm:h-[70px] w-auto object-contain\"\n            alt=\"Amie Woeppel Interiors logo\"\n            src=\"https://c.animaapp.com/jPZwUw1S/img/headeramie-logo-jpg-1@2x.png\"\n          />\n        </Link>",
+          "line": 66,
+          "endLine": 77,
+          "column": 8,
+          "endColumn": 15,
+          "sourceFile": "src/sections/MainNavigationSection.tsx"
+        }
+      }
+    }
+  ]
 }

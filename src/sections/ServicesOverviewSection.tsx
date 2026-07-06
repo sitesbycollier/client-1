@@ -2,7 +2,7 @@ const services = [
   {
     title: "Full-Service Interior Design",
     description:
-      "From space planning, finishes to furnishings, lighting, and custom details, Amie Woeppel creates a cohesive design tailored to the way you live. Whether it&#39;s your primary residence or vacation retreat, our Full-Service Interior Design experience takes your project from first ideas to final styling, guiding the process and delivering a space that feels personal and effortlessly livable.",
+      "From space planning, finishes to furnishings, lighting, and custom details, Amie Woeppel creates a cohesive design tailored to the way you live. Whether it is your primary residence or vacation retreat, our Full-Service Interior Design experience takes your project from first ideas to final styling, guiding the process and delivering a space that feels personal and effortlessly livable.",
     iconSrc: "https://c.animaapp.com/jPZwUw1S/img/home.svg",
     iconAlt: "",
   },

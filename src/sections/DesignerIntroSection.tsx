@@ -8,7 +8,7 @@ const introSegments = [
     className: "text-[#7faac4] tracking-[0.06px]",
   },
   { text: ", ", className: "font-light text-black tracking-[0.06px]" },
-  { text: "Amie", className: "text-[#c1b4a1] tracking-[0.06px]" },
+  { text: "Amie", className: "text-[#7faac4] tracking-[0.06px]" },
   {
     text: " brings creativity and a sharp eye for detail to every space she transforms. With an ",
     className: "font-light text-black tracking-[0.06px]",
@@ -21,7 +21,7 @@ const introSegments = [
     text: ", she turned her passion into ",
     className: "font-light text-black tracking-[0.06px]",
   },
-  { text: "Amie Woeppel", className: "text-[#c1b4a1] tracking-[0.06px]" },
+  { text: "Amie Woeppel", className: "text-[#7faac4] tracking-[0.06px]" },
   { text: "\u00A0", className: "font-light text-black tracking-[0.06px]" },
   { text: "Interiors.", className: "text-[#7faac4] tracking-[0.06px]" },
   {

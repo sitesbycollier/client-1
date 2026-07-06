@@ -1,1 +1,0 @@
-export { WoeppelPageDesign } from "./WoeppelPageDesign";

@@ -1,1 +1,0 @@
-export { HeroFeatureSection } from "./HeroFeatureSection";
