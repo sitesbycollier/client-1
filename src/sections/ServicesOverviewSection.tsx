@@ -7,9 +7,42 @@ const services = [
     iconAlt: "",
   },
   {
+    title: "Discovery Call",
+    description:
+      "A discovery call helps us understand your needs, preferences, and project scope before the design process begins.",
+    details: [
+      "Introduction",
+      "Client vision and goals",
+      "Project scope",
+      "Style preferences",
+      "Budget and timeline",
+      "Existing conditions",
+      "Client lifestyle",
+      "Next steps",
+    ],
+    iconSrc: "https://c.animaapp.com/jPZwUw1S/img/home.svg",
+    iconAlt: "",
+  },
+  {
     title: "New Build & Renovations",
     description:
       "Designing a home from the ground up or reimagining an existing one requires both creative vision and technical precision. Our team will guide you through every phase of the process, ensuring your home is functional and tailored to the way you live. We collaborate closely with architects and builders to ensure every decision is approached holistically to create a seamless final result.",
+    iconSrc: "https://c.animaapp.com/jPZwUw1S/img/layers.svg",
+    iconAlt: "",
+  },
+  {
+    title: "Site Visit + Consultation",
+    description:
+      "A paid consultation provides a more in-depth design conversation tailored to your project, your home, and the decisions ahead.",
+    details: [
+      "Detailed client interview",
+      "Site assessment",
+      "Design analysis",
+      "Style and inspiration",
+      "Budget and timeline planning",
+      "Action plan",
+      "Q&A session",
+    ],
     iconSrc: "https://c.animaapp.com/jPZwUw1S/img/layers.svg",
     iconAlt: "",
   },
@@ -54,6 +87,19 @@ export const ServicesOverviewSection = (): JSX.Element => {
               <p className="[font-family:'Merriweather',Helvetica] font-light text-[#4c4c4c] text-sm sm:text-base leading-[1.85]">
                 {service.description}
               </p>
+              {"details" in service && service.details ? (
+                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-2">
+                  {service.details.map((detail) => (
+                    <li
+                      key={detail}
+                      className="[font-family:'Merriweather',Helvetica] font-light text-[#4c4c4c] text-sm leading-relaxed flex gap-2"
+                    >
+                      <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#7faac4]" />
+                      <span>{detail}</span>
+                    </li>
+                  ))}
+                </ul>
+              ) : null}
             </article>
           ))}
         </div>

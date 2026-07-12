@@ -86,6 +86,198 @@
           "sourceFile": "src/sections/MainNavigationSection.tsx"
         }
       }
+    },
+    {
+      "id": "src/sections/MainNavigationSection.tsx:66:8-to-src/pages/HomePage.tsx",
+      "source": "src/pages/HomePage.tsx",
+      "target": "src/pages/HomePage.tsx",
+      "data": {
+        "viaRoute": "/",
+        "trigger": {
+          "element": "<Link\n          to=\"/\"\n          aria-label=\"Amie Woeppel Interiors — home\"\n          onClick={handleNavClick}\n          className=\"shrink-0 focus-visible:rounded focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#7faac4]\"\n        >\n          <img\n            className=\"h-[60px] sm:h-[70px] w-auto object-contain\"\n            alt=\"Amie Woeppel Interiors logo\"\n            src=\"https://c.animaapp.com/jPZwUw1S/img/headeramie-logo-jpg-1@2x.png\"\n          />\n        </Link>",
+          "line": 66,
+          "endLine": 77,
+          "column": 8,
+          "endColumn": 15,
+          "sourceFile": "src/sections/MainNavigationSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/sections/MainNavigationSection.tsx:105:10-to-src/pages/ContactPage.tsx",
+      "source": "src/pages/HomePage.tsx",
+      "target": "src/pages/ContactPage.tsx",
+      "data": {
+        "viaRoute": "/contact",
+        "trigger": {
+          "element": "<Link\n            to=\"/contact\"\n            onClick={handleNavClick}\n            className=\"ml-3 [font-family:'Playfair_Display',Helvetica] font-normal text-sm lg:text-[15px] tracking-[1px] text-white bg-[#c1b4a1] hover:bg-[#a8997f] px-4 py-2 rounded-full transition-colors duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#7faac4]\"\n          >\n            Contact Us\n          </Link>",
+          "line": 105,
+          "endLine": 111,
+          "column": 10,
+          "endColumn": 17,
+          "sourceFile": "src/sections/MainNavigationSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/sections/MainNavigationSection.tsx:166:10-to-src/pages/ContactPage.tsx",
+      "source": "src/pages/HomePage.tsx",
+      "target": "src/pages/ContactPage.tsx",
+      "data": {
+        "viaRoute": "/contact",
+        "trigger": {
+          "element": "<Link\n            to=\"/contact\"\n            onClick={handleNavClick}\n            className=\"mt-3 mb-2 [font-family:'Playfair_Display',Helvetica] font-normal text-[15px] tracking-[1px] text-center text-white bg-[#c1b4a1] hover:bg-[#a8997f] px-4 py-3 rounded-full transition-colors duration-200\"\n          >\n            Contact Us\n          </Link>",
+          "line": 166,
+          "endLine": 172,
+          "column": 10,
+          "endColumn": 17,
+          "sourceFile": "src/sections/MainNavigationSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/sections/MainNavigationSection.tsx:66:8-to-src/pages/HomePage.tsx",
+      "source": "src/pages/HomePage.tsx",
+      "target": "src/pages/HomePage.tsx",
+      "data": {
+        "viaRoute": "/",
+        "trigger": {
+          "element": "<Link\n          to=\"/\"\n          aria-label=\"Amie Woeppel Interiors — home\"\n          onClick={handleNavClick}\n          className=\"shrink-0 focus-visible:rounded focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#7faac4]\"\n        >\n          <img\n            className=\"h-[60px] sm:h-[70px] w-auto object-contain\"\n            alt=\"Amie Woeppel Interiors logo\"\n            src=\"https://c.animaapp.com/jPZwUw1S/img/headeramie-logo-jpg-1@2x.png\"\n          />\n        </Link>",
+          "line": 66,
+          "endLine": 77,
+          "column": 8,
+          "endColumn": 15,
+          "sourceFile": "src/sections/MainNavigationSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/sections/MainNavigationSection.tsx:105:10-to-src/pages/ContactPage.tsx",
+      "source": "src/pages/HomePage.tsx",
+      "target": "src/pages/ContactPage.tsx",
+      "data": {
+        "viaRoute": "/contact",
+        "trigger": {
+          "element": "<Link\n            to=\"/contact\"\n            onClick={handleNavClick}\n            className=\"ml-3 [font-family:'Playfair_Display',Helvetica] font-normal text-sm lg:text-[15px] tracking-[1px] text-white bg-[#c1b4a1] hover:bg-[#a8997f] px-4 py-2 rounded-full transition-colors duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#7faac4]\"\n          >\n            Contact Us\n          </Link>",
+          "line": 105,
+          "endLine": 111,
+          "column": 10,
+          "endColumn": 17,
+          "sourceFile": "src/sections/MainNavigationSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/sections/MainNavigationSection.tsx:166:10-to-src/pages/ContactPage.tsx",
+      "source": "src/pages/HomePage.tsx",
+      "target": "src/pages/ContactPage.tsx",
+      "data": {
+        "viaRoute": "/contact",
+        "trigger": {
+          "element": "<Link\n            to=\"/contact\"\n            onClick={handleNavClick}\n            className=\"mt-3 mb-2 [font-family:'Playfair_Display',Helvetica] font-normal text-[15px] tracking-[1px] text-center text-white bg-[#c1b4a1] hover:bg-[#a8997f] px-4 py-3 rounded-full transition-colors duration-200\"\n          >\n            Contact Us\n          </Link>",
+          "line": 166,
+          "endLine": 172,
+          "column": 10,
+          "endColumn": 17,
+          "sourceFile": "src/sections/MainNavigationSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/sections/MainNavigationSection.tsx:66:8-to-src/pages/HomePage.tsx",
+      "source": "src/pages/HomePage.tsx",
+      "target": "src/pages/HomePage.tsx",
+      "data": {
+        "viaRoute": "/",
+        "trigger": {
+          "element": "<Link\n          to=\"/\"\n          aria-label=\"Amie Woeppel Interiors — home\"\n          onClick={handleNavClick}\n          className=\"shrink-0 focus-visible:rounded focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#7faac4]\"\n        >\n          <img\n            className=\"h-[60px] sm:h-[70px] w-auto object-contain\"\n            alt=\"Amie Woeppel Interiors logo\"\n            src=\"https://c.animaapp.com/jPZwUw1S/img/headeramie-logo-jpg-1@2x.png\"\n          />\n        </Link>",
+          "line": 66,
+          "endLine": 77,
+          "column": 8,
+          "endColumn": 15,
+          "sourceFile": "src/sections/MainNavigationSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/sections/MainNavigationSection.tsx:105:10-to-src/pages/ContactPage.tsx",
+      "source": "src/pages/HomePage.tsx",
+      "target": "src/pages/ContactPage.tsx",
+      "data": {
+        "viaRoute": "/contact",
+        "trigger": {
+          "element": "<Link\n            to=\"/contact\"\n            onClick={handleNavClick}\n            className=\"ml-3 [font-family:'Playfair_Display',Helvetica] font-normal text-sm lg:text-[15px] tracking-[1px] text-white bg-[#c1b4a1] hover:bg-[#a8997f] px-4 py-2 rounded-full transition-colors duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#7faac4]\"\n          >\n            Contact Us\n          </Link>",
+          "line": 105,
+          "endLine": 111,
+          "column": 10,
+          "endColumn": 17,
+          "sourceFile": "src/sections/MainNavigationSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/sections/MainNavigationSection.tsx:166:10-to-src/pages/ContactPage.tsx",
+      "source": "src/pages/HomePage.tsx",
+      "target": "src/pages/ContactPage.tsx",
+      "data": {
+        "viaRoute": "/contact",
+        "trigger": {
+          "element": "<Link\n            to=\"/contact\"\n            onClick={handleNavClick}\n            className=\"mt-3 mb-2 [font-family:'Playfair_Display',Helvetica] font-normal text-[15px] tracking-[1px] text-center text-white bg-[#c1b4a1] hover:bg-[#a8997f] px-4 py-3 rounded-full transition-colors duration-200\"\n          >\n            Contact Us\n          </Link>",
+          "line": 166,
+          "endLine": 172,
+          "column": 10,
+          "endColumn": 17,
+          "sourceFile": "src/sections/MainNavigationSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/sections/MainNavigationSection.tsx:66:8-to-src/pages/HomePage.tsx",
+      "source": "src/pages/HomePage.tsx",
+      "target": "src/pages/HomePage.tsx",
+      "data": {
+        "viaRoute": "/",
+        "trigger": {
+          "element": "<Link\n          to=\"/\"\n          aria-label=\"Amie Woeppel Interiors — home\"\n          onClick={handleNavClick}\n          className=\"shrink-0 focus-visible:rounded focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#7faac4]\"\n        >\n          <img\n            className=\"h-[60px] sm:h-[70px] w-auto object-contain\"\n            alt=\"Amie Woeppel Interiors logo\"\n            src=\"https://c.animaapp.com/jPZwUw1S/img/headeramie-logo-jpg-1@2x.png\"\n          />\n        </Link>",
+          "line": 66,
+          "endLine": 77,
+          "column": 8,
+          "endColumn": 15,
+          "sourceFile": "src/sections/MainNavigationSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/sections/MainNavigationSection.tsx:105:10-to-src/pages/ContactPage.tsx",
+      "source": "src/pages/HomePage.tsx",
+      "target": "src/pages/ContactPage.tsx",
+      "data": {
+        "viaRoute": "/contact",
+        "trigger": {
+          "element": "<Link\n            to=\"/contact\"\n            onClick={handleNavClick}\n            className=\"ml-3 [font-family:'Playfair_Display',Helvetica] font-normal text-sm lg:text-[15px] tracking-[1px] text-white bg-[#c1b4a1] hover:bg-[#a8997f] px-4 py-2 rounded-full transition-colors duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#7faac4]\"\n          >\n            Contact Us\n          </Link>",
+          "line": 105,
+          "endLine": 111,
+          "column": 10,
+          "endColumn": 17,
+          "sourceFile": "src/sections/MainNavigationSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/sections/MainNavigationSection.tsx:166:10-to-src/pages/ContactPage.tsx",
+      "source": "src/pages/HomePage.tsx",
+      "target": "src/pages/ContactPage.tsx",
+      "data": {
+        "viaRoute": "/contact",
+        "trigger": {
+          "element": "<Link\n            to=\"/contact\"\n            onClick={handleNavClick}\n            className=\"mt-3 mb-2 [font-family:'Playfair_Display',Helvetica] font-normal text-[15px] tracking-[1px] text-center text-white bg-[#c1b4a1] hover:bg-[#a8997f] px-4 py-3 rounded-full transition-colors duration-200\"\n          >\n            Contact Us\n          </Link>",
+          "line": 166,
+          "endLine": 172,
+          "column": 10,
+          "endColumn": 17,
+          "sourceFile": "src/sections/MainNavigationSection.tsx"
+        }
+      }
     }
   ]
 }

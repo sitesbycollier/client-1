@@ -25,7 +25,7 @@ export const AboutPage = (): JSX.Element => {
               About Amie
             </p>
             <h1 className="[font-family:'Merriweather',Helvetica] font-light text-[#636363] text-2xl sm:text-[30px] leading-snug mb-6">
-              Design your dream home with{" "}
+              Thoughtful interiors by{" "}
               <span className="text-[#7faac4] font-normal">Amie Woeppel</span>
             </h1>
             <DesignerIntroSection />
