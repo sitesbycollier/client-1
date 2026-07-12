@@ -1,4 +1,3 @@
-import { ContactFormSection } from "../sections/ContactFormSection";
 import { DesignerIntroSection } from "../sections/DesignerIntroSection";
 import { Footer } from "../sections/Footer";
 import { Header } from "../sections/Header";
@@ -33,10 +32,6 @@ export const AboutPage = (): JSX.Element => {
           </div>
         </div>
       </section>
-
-      <div id="contact">
-        <ContactFormSection />
-      </div>
 
       <Footer />
     </div>

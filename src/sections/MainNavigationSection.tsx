@@ -5,7 +5,7 @@ const navItems = [
   { label: "HOME", to: "/" },
   { label: "PORTFOLIO", to: "/projects" },
   { label: "ABOUT", to: "/about" },
-  { label: "SERVICES", to: "/services" },
+  { label: "SERVICES", to: "/#services" },
 ];
 
 export const MainNavigationSection = (): JSX.Element => {
@@ -102,13 +102,13 @@ export const MainNavigationSection = (): JSX.Element => {
               </Link>
             );
           })}
-          <button
-            type="button"
-            onClick={() => handleHashNavigation("#contact")}
+          <Link
+            to="/contact"
+            onClick={handleNavClick}
             className="ml-3 [font-family:'Playfair_Display',Helvetica] font-normal text-sm lg:text-[15px] tracking-[1px] text-white bg-[#c1b4a1] hover:bg-[#a8997f] px-4 py-2 rounded-full transition-colors duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#7faac4]"
           >
             Contact Us
-          </button>
+          </Link>
         </nav>
 
         <button
@@ -163,13 +163,13 @@ export const MainNavigationSection = (): JSX.Element => {
               </Link>
             );
           })}
-          <button
-            type="button"
-            onClick={() => handleHashNavigation("#contact")}
+          <Link
+            to="/contact"
+            onClick={handleNavClick}
             className="mt-3 mb-2 [font-family:'Playfair_Display',Helvetica] font-normal text-[15px] tracking-[1px] text-center text-white bg-[#c1b4a1] hover:bg-[#a8997f] px-4 py-3 rounded-full transition-colors duration-200"
           >
             Contact Us
-          </button>
+          </Link>
         </nav>
       </div>
     </header>

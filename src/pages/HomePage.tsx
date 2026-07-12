@@ -1,7 +1,7 @@
 import { useState, useCallback, useEffect } from "react";
-import { ContactFormSection } from "../sections/ContactFormSection";
 import { Footer } from "../sections/Footer";
 import { Header } from "../sections/Header";
+import { ServicesOverviewSection } from "../sections/ServicesOverviewSection";
 
 const heroFiles = import.meta.glob(
   "/src/assets/hero/*.{jpg,jpeg,png,webp,JPG,JPEG,PNG,WEBP}",
@@ -164,9 +164,9 @@ export const HomePage = (): JSX.Element | null => {
         </div>
       </section>
 
-      <div id="contact">
-        <ContactFormSection />
-      </div>
+      <main id="services" aria-label="Services" className="w-full">
+        <ServicesOverviewSection />
+      </main>
 
       <Footer />
     </div>

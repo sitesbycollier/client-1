@@ -1,14 +1,14 @@
-import { HeroFeatureSection } from "../sections/HeroFeatureSection";
+import { ContactFormSection } from "../sections/ContactFormSection";
 import { Footer } from "../sections/Footer";
 import { Header } from "../sections/Header";
 
-export const ProjectsPage = (): JSX.Element => {
+export const ContactPage = (): JSX.Element => {
   return (
     <div className="bg-[#fefefe] w-full overflow-x-hidden">
       <Header />
 
-      <main id="projects" aria-label="Projects page" className="w-full">
-        <HeroFeatureSection />
+      <main id="contact" aria-label="Contact page" className="w-full">
+        <ContactFormSection />
       </main>
 
       <Footer />

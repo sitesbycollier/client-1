@@ -78,6 +78,7 @@ export const ContactFormSection = (): JSX.Element => {
             value="New Project Inquiry - Amie Woeppel Interiors"
           />
           <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_captcha" value="false" />
           <input
             type="text"
             name="website"
@@ -139,12 +140,13 @@ export const ContactFormSection = (): JSX.Element => {
             />
           </div>
 
-          <label className="inline-flex items-start gap-3">
+          <label className="inline-flex w-fit cursor-pointer items-center gap-3 rounded-lg border border-[#e6ded3] bg-white px-4 py-3">
+            <input type="hidden" name="signupUpdates" value="No" />
             <input
               type="checkbox"
               name="signupUpdates"
               value="Yes"
-              className="mt-1 h-4 w-4 rounded border-[#d9d9d9] text-[#7faac4] focus:ring-[#7faac4]"
+              className="h-5 w-5 shrink-0 appearance-auto accent-[#7faac4] focus:ring-2 focus:ring-[#7faac4] focus:ring-offset-2"
             />
             <span className="[font-family:'Merriweather',Helvetica] text-sm sm:text-base font-normal text-[#636363]">
               Sign up for news and updates
@@ -360,20 +362,23 @@ export const ContactFormSection = (): JSX.Element => {
             </div>
           </div>
 
-          <fieldset className="flex flex-col gap-3 rounded-lg border border-[#d9d9d9] bg-white px-4 py-4">
-            <legend className="[font-family:'Merriweather',Helvetica] px-2 text-sm sm:text-base font-normal text-[#636363]">
+          <fieldset className="flex flex-col gap-4 rounded-lg border border-[#d9d9d9] bg-white px-5 py-5 sm:px-6">
+            <p className="[font-family:'Merriweather',Helvetica] text-sm sm:text-base font-normal text-[#636363]">
               What spaces are you interested in our services for? (required)
-            </legend>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3">
               {spaceOptions.map((space) => (
-                <label key={space} className="inline-flex items-start gap-2">
+                <label
+                  key={space}
+                  className="inline-flex cursor-pointer items-center gap-3 rounded-md px-2 py-1.5 hover:bg-[#f9f7f4]"
+                >
                   <input
                     type="checkbox"
                     name="spacesInterested[]"
                     value={space}
                     checked={selectedSpaces.includes(space)}
                     onChange={() => handleSpaceToggle(space)}
-                    className="mt-1 h-4 w-4 rounded border-[#d9d9d9] text-[#7faac4] focus:ring-[#7faac4]"
+                    className="h-5 w-5 shrink-0 appearance-auto accent-[#7faac4] focus:ring-2 focus:ring-[#7faac4] focus:ring-offset-2"
                   />
                   <span className="[font-family:'Merriweather',Helvetica] text-sm text-[#636363]">
                     {space}
